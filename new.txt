@@ -3,3 +3,5 @@ here it is
 add a line.
 
 creating a new branch is quick.
+
+test 'vi' order.
