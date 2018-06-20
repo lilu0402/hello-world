@@ -7,3 +7,5 @@ creating a new branch is quick.
 test 'vi' order.
 
 add merge.
+
+here is a practive on 6/20/18.
