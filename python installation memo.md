@@ -1,6 +1,6 @@
 # Anaconda/Python/VisualStudioCode/Git Installation Memo #
 
-1.  ## Install Anaconda/Python ##
+1.  ## Anaconda/Python ##
 
 * Download link is here: https://www.anaconda.com/download/, choose the **Python** version for download (I choose Python3.6 version).
 
@@ -12,10 +12,15 @@
 
 >>(**How to add path to Environment Variables:** My PC>Properties>Advanced system settings>Environment Variables>Edit)
 
-2. ## Install Visual Studio Code ##
-* 
+2. ## Visual Studio Code ##
+
+* Command to activate VSC in cmd: _code ._
 
 
-3. ## Install Git ##
 
-* create .gitignore file: 1. create the text file gitignore.txt; 2. Open it in a text editor and add 
+3. ## Git ##
+
+* Ignore the folders/files that you don't want track:
+>> Create .gitignore file: 1. create the text file gitignore.txt; 2. Open it in a text editor and add your rules (say, add .gitignore and .vscode), then save and close; 3. open a command window in the folder you're in; 4, then rename the file using command: _ren gitignore.txt .gitignore_
+
+* Must use double quote("") when describing the file.
