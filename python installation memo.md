@@ -23,4 +23,4 @@
 * Ignore the folders/files that you don't want track:
 >> Create .gitignore file: 1. create the text file gitignore.txt; 2. Open it in a text editor and add your rules (say, add .gitignore and .vscode), then save and close; 3. open a command window in the folder you're in; 4, then rename the file using command: _ren gitignore.txt .gitignore_
 
-* Must use double quote("") when describing the file.
+* Must use double quote("") when refering to a file.
