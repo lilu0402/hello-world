@@ -24,3 +24,12 @@
 >> Create .gitignore file: 1. create the text file gitignore.txt; 2. Open it in a text editor and add your rules (say, add .gitignore and .vscode), then save and close; 3. open a command window in the folder you're in; 4, then rename the file using command: _ren gitignore.txt .gitignore_
 
 * Must use double quote("") when refering to a file.
+
+4. ## PyQt5 ##
+
+* let pylint recognize the imported modules and ignore the warning:
+>> open the _settings.json_, add the following statements in the setting:
+>>>>>_"python.linting.pylintArgs":   
+    ["--extension-pkg-whitelist=PyQt5",   
+     "--errors-only"]_
+

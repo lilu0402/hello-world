@@ -1,4 +1,1 @@
-import matplotlib.pyplot as plt
-
-print('hello world')
-
+import this
